@@ -1,0 +1,44 @@
+ul{
+	list-style: none;
+	display: inline;
+}
+li{
+	display: inline;
+	margin-right: 17px;
+}
+div{
+	background-image: url(img/navbar_bg.png);
+	text-align: center;
+	color: white;
+}
+div img{
+	width: 145px;
+	height: 90px;
+	vertical-align: middle;
+}
+li:hover{
+	color: red;
+}
+a{
+	background-image: url(img/sprites_btn.png);
+	vertical-align: middle;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.Y{
+	background-color: rgba(0, 0, 0, 0);
+	color:yellow;
+	border: 1px yellow solid;
+	width: 50px;
+	height: 20px;
+	border-radius: 25px;
+}
+input:hover{
+	color: red;
+	text-decoration: underline;
+}
