@@ -1,0 +1,33 @@
+ul{
+	list-style: none;
+	right: 0px;
+	position: fixed;
+}
+div{
+	width: 100px;
+	height: 500px;
+}
+li{
+	text-align: center;
+	width: 82x;
+	height: 90px;
+	border: 1px solid #f5f5f5;
+	color: #757575;
+			}
+span{
+	display: block;
+	font-size: 12px;
+}
+.B{
+	display:none;
+}
+li:hover{
+	color: #ff6700;
+}
+li:hover .A{
+	display:none;
+}
+li:hover .B{
+	display:inline;
+}
+
